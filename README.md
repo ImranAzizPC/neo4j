@@ -3,7 +3,6 @@
 ##  What is Graph DB
 
     - They’re not visual graph and charts. 
-    - Graph databases use nodes to store data entities, and edges to store relationships between entities
     - Data is represented as nodes, which are connected by edges, or relationships. 
     - Each node and edge can also have properties, which store additional information about the data. 
     - The graph model is a natural fit for data with complex relationships, such as social networks, supply chains, and biological networks.
@@ -13,10 +12,10 @@
 
 ## How it differs from Relational DB model
 
-   - A relational database is based on the relational model, which stores data in tables with rows and columns. 
-   - In a relational database, relationships between data are typically represented using foreign keys and join operations. Relationships are infered via schema. 
-   - RDBMs are very good at handling structured data with a fixed schema, they can become slow and complex when dealing with highly interconnected data.
-   - The relational databases withstood the test of time, and are here to stay at least for the foreseeable future, even if not forever.
+    - A relational database is based on the relational model, which stores data in tables with rows and columns. 
+    - In a relational database, relationships between data are typically represented using foreign keys and join operations. 
+    - RDBMs are very good at handling structured data with a fixed schema, they can become slow and complex when dealing with highly interconnected data.
+    - The relational databases withstood the test of time, and are here to stay at least for the foreseeable future, even if not forever.
  <graphic>
 
 Factor | Graph | Relational Database
@@ -27,26 +26,38 @@ Purpose	| Solely for uncovering hidden insights. Doesn’t serve operational pur
 Performance | Blazing fast even for large sets of data | Relatively slower than Graph DBs
 Maintenance	| A lot easy, as they are schema-free | Difficult and often cumbersome, as minor changes could affect the entire structure 
     
-    One of the key differences between graph databases and relational databases is the way they handle relationships between data. In a graph database, relationships are first-class citizens, and queries can traverse relationships directly. This allows for faster and more efficient traversal of relationships and enables complex queries that can be challenging or impossible in a relational database.
 
-Another difference is the way graph databases and relational databases handle schema. In a relational database, the schema is fixed and data must conform to that schema. In a graph database, the schema is flexible and can evolve over time as the data changes. This allows for more agile development and better support for dynamic, rapidly changing data.
+In Graph DBs like Neo4J, Queries can traverse relationships directly. This allows for faster and more efficient traversal of relationships and enables complex queries that can be challenging or impossible in a relational database.
 
-Finally, graph databases and relational databases have different use cases. Graph databases are ideal for applications that involve highly interconnected data and complex queries, such as social networks, recommendation engines, and fraud detection. Relational databases are well-suited for applications that involve structured data with a fixed schema, such as accounting systems and inventory management.
+Basically graph databases and relational databases have different use cases. Graph databases are ideal for applications that involve highly interconnected data and complex queries, such as social networks, recommendation engines, and fraud detection. Relational databases are well-suited for applications that involve structured data with a fixed schema, such as accounting systems and inventory management.
     
     
-3. Understanding the Neo4j graph model: 
-   a. Explanation of the core components of the Neo4j graph model including nodes, relationships, and properties.
-   c. Overview of the Cypher query language and its use in Neo4j.
+## Neo4J
+    
+Neo4j is a popular graph database management system that is designed to store and manage highly connected data. At the core of the Neo4j graph model are three primary components: nodes, relationships, and properties.
 
-4. Key features of Neo4j: 
-   a. Explanation of the key features of Neo4j, such as its support for ACID transactions, high scalability and high availability, and its flexible data model.
-   b. Overview of the different editions of Neo4j including the Community edition, the Enterprise edition, and the Aura cloud-based offering.
+1. Nodes:
 
-5. Use cases for Neo4j: 
-   a. Examples of how Neo4j is used in real-world scenarios, such as social networks, recommendation engines, fraud detection, and identity and access management.
-   b. Explanation of how Neo4j is used in different industries, including healthcare, finance, retail, and logistics.
+A node is a fundamental unit of data in the Neo4j graph model. It represents a single entity or object in the system, such as a person, a company, or a product. A node is identified by a unique identifier called a node ID or "label." Nodes can also have one or more properties associated with them that provide additional information about the node. For example, a person node might have properties such as "name," "age," "gender," and "address."
 
-6. Conclusion: 
-   a. Recap of the key points of the presentation.
-   b. Summary of the benefits of using Neo4j graph database.
-   c. Explanation of how to get started with Neo4j.
+2. Relationships:
+
+Relationships are connections between nodes in the Neo4j graph model. They represent how two nodes are related to each other. Relationships are always directed, which means that they have a start node and an end node. A relationship is identified by a unique identifier called a relationship type or "label." Relationships can also have one or more properties associated with them that provide additional information about the relationship. For example, a "friend" relationship between two person nodes might have properties such as "date added," "strength," and "frequency of communication."
+
+3. Properties:
+
+Properties are key-value pairs that are associated with nodes and relationships in the Neo4j graph model. They provide additional information about the node or relationship they are associated with. Properties can be any data type, such as strings, numbers, or dates. Properties are stored in the database and can be indexed for fast querying. For example, a person node might have properties such as "name," "age," and "address," while a relationship might have properties such as "date added," "strength," and "frequency of communication."
+
+Together, nodes, relationships, and properties provide a flexible and powerful way to model highly connected data in Neo4j. By using these core components, developers can build sophisticated graph-based applications that are highly scalable and performant.
+    
+## Overview of the Cypher query language and its use in Neo4j.
+
+## Key features of Neo4j: 
+- Explanation of the key features of Neo4j, such as its support for ACID transactions, high scalability and high availability, and its flexible data model.
+- Overview of the different editions of Neo4j including the Community edition, the Enterprise edition, and the Aura cloud-based offering.
+
+## Use cases for Neo4j: 
+- Examples of how Neo4j is used in real-world scenarios, such as social networks, recommendation engines, fraud detection, and identity and access management.
+- Explanation of how Neo4j is used in different industries, including healthcare, finance, retail, and logistics.
+
+## Code demo
