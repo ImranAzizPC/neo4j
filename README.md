@@ -36,15 +36,15 @@ Basically graph databases and relational databases have different use cases. Gra
     
 Neo4j is a popular graph database management system that is designed to store and manage highly connected data. At the core of the Neo4j graph model are three primary components: nodes, relationships, and properties.
 
-1. Nodes:
+### 1. Nodes:
 
 A node is a fundamental unit of data in the Neo4j graph model. It represents a single entity or object in the system, such as a person, a company, or a product. A node is identified by a unique identifier called a node ID or "label." Nodes can also have one or more properties associated with them that provide additional information about the node. For example, a person node might have properties such as "name," "age," "gender," and "address."
 
-2. Relationships:
+### 2. Relationships:
 
 Relationships are connections between nodes in the Neo4j graph model. They represent how two nodes are related to each other. Relationships are always directed, which means that they have a start node and an end node. A relationship is identified by a unique identifier called a relationship type or "label." Relationships can also have one or more properties associated with them that provide additional information about the relationship. For example, a "friend" relationship between two person nodes might have properties such as "date added," "strength," and "frequency of communication."
 
-3. Properties:
+### 3. Properties:
 
 Properties are key-value pairs that are associated with nodes and relationships in the Neo4j graph model. They provide additional information about the node or relationship they are associated with. Properties can be any data type, such as strings, numbers, or dates. Properties are stored in the database and can be indexed for fast querying. For example, a person node might have properties such as "name," "age," and "address," while a relationship might have properties such as "date added," "strength," and "frequency of communication."
 
