@@ -2,20 +2,20 @@
 
 ##  What is Graph DB
 
-    - They’re not visual graph and charts. 
-    - Data is represented as nodes, which are connected by edges, or relationships. 
-    - Each node and edge can also have properties, which store additional information about the data. 
-    - The graph model is a natural fit for data with complex relationships, such as social networks, supply chains, and biological networks.
-    - Graph databases, though just around a decade old, are witnessing a wide adoption in recent years, in the insight-hungry business world.
-    - Relationships are first-class citizens, and queries can traverse relationships directly.
-    - <img src="https://github.com/ImranAzizPC/neo4j/assets/133036892/723cb200-b7f1-4104-b198-58efe0fd972b" width="500">
+- They’re not visual graph and charts. 
+- Data is represented as nodes, which are connected by edges, or relationships. 
+- Each node and edge can also have properties, which store additional information about the data. 
+- The graph model is a natural fit for data with complex relationships, such as social networks, supply chains, and biological networks.
+- Graph databases, though just around a decade old, are witnessing a wide adoption in recent years, in the insight-hungry business world.
+- Relationships are first-class citizens, and queries can traverse relationships directly.
+- <img src="https://github.com/ImranAzizPC/neo4j/assets/133036892/723cb200-b7f1-4104-b198-58efe0fd972b" width="500">
 
 ## How it differs from Relational DB model
 
-    - A relational database is based on the relational model, which stores data in tables with rows and columns. 
-    - In a relational database, relationships between data are typically represented using foreign keys and join operations. 
-    - RDBMs are very good at handling structured data with a fixed schema, they can become slow and complex when dealing with highly interconnected data.
-    - The relational databases withstood the test of time, and are here to stay at least for the foreseeable future, even if not forever.
+- A relational database is based on the relational model, which stores data in tables with rows and columns. 
+- In a relational database, relationships between data are typically represented using foreign keys and join operations. 
+- RDBMs are very good at handling structured data with a fixed schema, they can become slow and complex when dealing with highly interconnected data.
+- The relational databases withstood the test of time, and are here to stay at least for the foreseeable future, even if not forever.
  <graphic>
 
 Factor | Graph | Relational Database
