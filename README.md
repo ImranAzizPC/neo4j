@@ -4,8 +4,6 @@
 
 - They’re not visual graph and charts. 
 - Data is represented as nodes, which are connected by edges, or relationships. 
-- Each node and edge can also have properties, which store additional information about the data. 
-- The graph model is a natural fit for data with complex relationships, such as social networks, supply chains, and biological networks.
 - Graph databases, though just around a decade old, are witnessing a wide adoption in recent years, in the insight-hungry business world.
 - Relationships are first-class citizens, and queries can traverse relationships directly.
 - <img src="https://github.com/ImranAzizPC/neo4j/assets/133036892/723cb200-b7f1-4104-b198-58efe0fd972b" width="500">
