@@ -10,11 +10,7 @@
 
 ## How it differs from Relational DB model
 
-- A relational database is based on the relational model, which stores data in tables with rows and columns. 
-- In a relational database, relationships between data are typically represented using foreign keys and join operations. 
-- RDBMs are very good at handling structured data with a fixed schema, they can become slow and complex when dealing with highly interconnected data.
 - The relational databases withstood the test of time, and are here to stay at least for the foreseeable future, even if not forever.
- <graphic>
 
 Factor | Graph | Relational Database
 --- | --- | --- 
