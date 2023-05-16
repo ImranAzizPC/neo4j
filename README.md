@@ -17,7 +17,7 @@ Factor | Graph | Relational Database
 --- | --- | --- 
 Storage approach | Entities and Relationships are stored as Nodes and Edges respectively | Data is stored in tables as rows and columns. Joins are created between tables for fast querying. The relationships between the columns of a table are inferred, but never stored separately.
 Schema | Schema-free. Unstructured.	| Rigid schema. Data Structure and format are pre-defined.
-Purpose	| Solely for uncovering hidden insights. Doesn’t serve operational purposes. | Serves both operational and analytics purposes
+Purpose	| Uncovering hidden insights, handle complex and highly connected data, where traditional relational databases may not be sufficient | Serves both operational and analytics purposes
 Performance | Blazing fast even for large sets of data | Relatively slower than Graph DBs
 Maintenance	| A lot easy, as they are schema-free | Difficult and often cumbersome, as minor changes could affect the entire structure 
     
