@@ -105,9 +105,9 @@ Overall, Neo4j's support for ACID transactions, high scalability and high availa
 
 
 ## There are different editions of Neo4j 
-- Community edition-
-- Enterprise edition-
-- Aura cloud-based offering.
+- Community edition
+- Enterprise edition
+- Aura cloud-based offering
 
 ## Use cases for Neo4j: 
 ### Social networks:
