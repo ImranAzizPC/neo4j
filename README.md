@@ -1,7 +1,7 @@
 # Neo4j – Graph DB
 
 ##  What is Graph DB
-
+![graphdb-GVE](https://github.com/ImranAzizPC/neo4j/assets/133036892/b90aa556-1709-4dc9-b716-bf7b2570bdef)
 - They’re not visual graph and charts. 
 - Data is represented as nodes, which are connected by edges, or relationships. 
 - Graph databases, though just around a decade old, are witnessing a wide adoption in recent years, in the insight-hungry business world.
