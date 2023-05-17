@@ -112,4 +112,4 @@ Neo4j can be used to manage identity and access control in complex organizations
 ### Knowledge graphs:
 Neo4j's graph-based querying and flexible data model make it an ideal platform for building knowledge graphs. For example, NASA uses Neo4j to model and analyze the relationships between various entities in the space industry, such as spacecraft, launch vehicles, and missions.
 
-## Code demo
+## DB demo
