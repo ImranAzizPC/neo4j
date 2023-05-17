@@ -11,8 +11,6 @@
 
 ## How it differs from Relational DB model
 
-- The relational databases withstood the test of time, and are here to stay at least for the foreseeable future, even if not forever.
-
 Factor | Graph | Relational Database
 --- | --- | --- 
 Storage approach | Entities and Relationships are stored as Nodes and Edges respectively | Data is stored in tables as rows and columns. Joins are created between tables for fast querying. The relationships between the columns of a table are inferred, but never stored separately.
@@ -21,6 +19,7 @@ Purpose	| Uncovering hidden insights, handle complex and highly connected data, 
 Performance | Blazing fast even for large sets of data | Relatively slower than Graph DBs
 Maintenance	| A lot easy, as they are schema-free | Difficult and often cumbersome, as minor changes could affect the entire structure 
     
+The relational databases withstood the test of time, and are here to stay at least for the foreseeable future, even if not forever.
 
 In Graph DBs like Neo4J, Queries can traverse relationships directly. This allows for faster and more efficient traversal of relationships and enables complex queries that can be challenging or impossible in a relational database.
 
