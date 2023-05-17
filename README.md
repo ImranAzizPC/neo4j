@@ -27,11 +27,11 @@ Neo4j is a popular graph database management system that is designed to store an
 
 ### 1. Nodes:
 
-A node is a fundamental unit of data in the Neo4j graph model. It represents a single entity or object in the system, such as a person, a company, or a product. A node is identified by a unique identifier called a node ID or "label." Nodes can also have one or more properties associated with them that provide additional information about the node. For example, a person node might have properties such as "name," "age," "gender," and "address."
+A node is a fundamental unit of data in the Neo4j graph model. It represents a single entity or object in the system, such as a person, a company, or a product. Nodes can also have one or more properties associated with them. For example, a person node might have properties such as "name," "age," "gender," and "address."
 
 ### 2. Relationships:
 
-Relationships are connections between nodes in the Neo4j graph model. They represent how two nodes are related to each other. Relationships are always directed, which means that they have a start node and an end node. A relationship is identified by a unique identifier called a relationship type or "label." Relationships can also have one or more properties associated with them that provide additional information about the relationship. For example, a "friend" relationship between two person nodes might have properties such as "date added," "strength," and "frequency of communication."
+Relationships are connections between nodes. They represent how two nodes are related to each other. Relationships are always directed, which means that they have a start node and an end node. A relationship is identified by a unique identifier called a relationship type or "label." Relationships can also have one or more properties associated with them. For example, a "friend" relationship between two person nodes might have properties such as "date added," "strength," and "frequency of communication."
 
 ### 3. Properties:
 
